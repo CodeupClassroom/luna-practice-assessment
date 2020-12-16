@@ -20,3 +20,9 @@
  * and
  * concat
  */
+
+//1
+function isTrue (num) {
+    return num === true
+}
+
