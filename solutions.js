@@ -42,4 +42,6 @@ function not (num) {
 }
 
 //5
-
+function addOne (num) {
+    return parseFloat(num) + 1
+}
