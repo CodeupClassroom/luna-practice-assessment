@@ -41,3 +41,15 @@ function not(c){
     return !c
 }
 
+//4. Define a function named `addOne` that takes in a single input. If the input
+// is a number or a numeric string, return the value plus one.
+
+function addOne(d){
+    return Number(d) + 1
+}
+
+//5. Define a function named `isEven` that takes in a single input. If the input is an even number or a
+// string containing an even number, return `true`. Any other input should return false for the output.
+function isEven(e){
+    return parseInt(e) % 2 === 0
+}
