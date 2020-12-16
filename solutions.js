@@ -57,3 +57,7 @@ function isIdentical(x ,y) {
 }
 
 //8
+function or(x, y) {
+    return x || y;
+}
+
