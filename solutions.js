@@ -52,3 +52,8 @@ function isEven(num) {
 }
 
 //7
+function isIdentical(x ,y) {
+    return x === y;
+}
+
+//8
