@@ -30,3 +30,10 @@ function isTrue (num) {
 function isFalse (num) {
     return num === false
 }
+
+//3
+function isEqual (x, y) {
+    return x == y
+}
+
+
