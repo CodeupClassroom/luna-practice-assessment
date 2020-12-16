@@ -73,13 +73,13 @@ function or(f,g){
 //9. Define a function named `and` that takes in two input arguments and returns the result of a logical
 // `and` operation of both inputs.
 function and(h,i) {
-    return h && i
+    return h && i;
 }
 //10. Define a function named `concat` that takes in two input arguments. If both arguments are strings,
 // then return the concatenated result. If two numbers are provided, then return the string concatenation
 // of each set of numerals.
 
 function concat(j,k){
-    return j.toString() + k.toString()
+    return j.toString() + k.toString();
 }
 
