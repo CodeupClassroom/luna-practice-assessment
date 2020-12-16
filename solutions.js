@@ -80,6 +80,6 @@ function and(h,i) {
 // of each set of numerals.
 
 function concat(j,k){
-    return j.toString() + k.toString()
+    return j.toString() + k.toString();
 }
 
