@@ -53,3 +53,10 @@ function addOne(d){
 function isEven(e){
     return parseInt(e) % 2 === 0
 }
+//6. Define a function named `isIdentical` that takes in two input arguments. If each input is equal both
+// in data type and in value, then return `true`. If the values are not the same data type or not the same
+// value, return `false`.
+
+function isIdentical(input1,input2){
+    return input1 === input2
+}
