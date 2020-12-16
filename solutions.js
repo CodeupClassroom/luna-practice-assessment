@@ -20,3 +20,24 @@
  * and
  * concat
  */
+
+//1. Define a function named `isTrue` that takes in any input and returns true if
+    //the input provided is exactly equal to `true` in value and data type.
+
+function isTrue(a) {
+return a === true
+}
+
+//2. Define a function named `isFalse` that takes in a value and returns a true if and only if the
+// provided input is equal to false in both type and value.
+
+function isFalse(b){
+    return b === false
+}
+//3. Define a function named `not` that takes in any input and returns
+// the boolean opposite of the provided input.
+
+function not(c){
+    return !c
+}
+
