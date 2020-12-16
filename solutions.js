@@ -36,4 +36,10 @@ function isEqual (x, y) {
     return x == y
 }
 
+//4
+function not (num) {
+    return !num
+}
+
+//5
 
