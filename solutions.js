@@ -37,8 +37,8 @@ function isFalse(b){
 //3. Define a function named `not` that takes in any input and returns
 // the boolean opposite of the provided input.
 
-function not(c){
-    return !c
+function not(input){
+    return !input
 }
 
 //4. Define a function named `addOne` that takes in a single input. If the input
