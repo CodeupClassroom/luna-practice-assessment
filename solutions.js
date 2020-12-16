@@ -67,3 +67,6 @@ function and(x, y) {
 }
 
 //10
+function concat(x, y) {
+    return ("" + x + y)
+}
