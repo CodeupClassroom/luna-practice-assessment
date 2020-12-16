@@ -20,3 +20,54 @@
  * and
  * concat
  */
+
+function isTrue(){
+    return isTrue == true;
+}
+
+function isFalse(){
+    return isFalse === false;
+}
+
+function not(anyInput){
+    var anyInput = !anyInput;
+       return anyInput == !anyInput;
+}
+
+function addOne(x){
+    var x =+ 1;
+    return x;
+}
+
+function isEven(x){
+    var x = x % 2;
+    return x >= 0;
+}
+
+function isIdentical(x, y){
+var x;
+var y;
+    return (x === true) && (y === true);
+}
+
+function isEqual(x,y){
+    return x == y;
+}
+
+function or(x, y){
+    var x;
+    var y;
+    return x == true || y == true;
+}
+
+function and(x, y){
+    var x;
+    var y;
+    return x === true && y === true;
+}
+
+function concat(x, y){
+    var x;
+    var y;
+    return "x" + "y";
+}
