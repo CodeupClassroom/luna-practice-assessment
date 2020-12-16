@@ -61,3 +61,9 @@ function or(x, y) {
     return x || y;
 }
 
+//9
+function and(x, y) {
+    return x && y;
+}
+
+//10
