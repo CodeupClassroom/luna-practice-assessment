@@ -26,3 +26,7 @@ function isTrue (num) {
     return num === true
 }
 
+//2
+function isFalse (num) {
+    return num === false
+}
