@@ -23,25 +23,32 @@
 
 //1
 function isTrue (num) {
-    return num === true
+    return num === true;
 }
 
 //2
 function isFalse (num) {
-    return num === false
+    return num === false;
 }
 
 //3
 function isEqual (x, y) {
-    return x == y
+    return x == y;
 }
 
 //4
 function not (num) {
-    return !num
+    return !num;
 }
 
 //5
 function addOne (num) {
-    return parseFloat(num) + 1
+    return parseFloat(num) + 1;
 }
+
+//6
+function isEven(num) {
+    return parseFloat(num) % 2 === 0;
+}
+
+//7
